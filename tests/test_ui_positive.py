@@ -104,9 +104,3 @@ class TestsPositiveUI:
         assert page.btn_tel.is_presented() and page.btn_tel.is_clickable()
         assert page.btn_inst.is_presented() and page.btn_inst.is_clickable()
         assert page.btn_vk.is_presented() and page.btn_vk.is_clickable()
-
-
-# python -m pytest -v --driver Chrome --driver-path C:\Chrome-selenium\chromedriver.exe tests\test_ui_positive.py
-# python -m pytest -v --driver Chrome --driver-path C:\Chrome-selenium\chromedriver.exe tests\test_ui_positive.py -v -m "header"
-# python -m pytest -v --driver Chrome --driver-path C:\Chrome-selenium\chromedriver.exe tests\test_ui_positive.py -v -m "main"
-# python -m pytest -v --driver Chrome --driver-path C:\Chrome-selenium\chromedriver.exe tests\test_ui_positive.py -v -m "footer"
